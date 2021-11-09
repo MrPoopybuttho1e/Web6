@@ -1,0 +1,217 @@
+@media screen and (max-width: 700px){
+    .body{
+        margin: 0;
+        font-family: Tahoma, selif, sans-serif;
+
+    }
+
+
+    .topFlexBox{
+        display: flex;
+        flex-direction: column;
+        max-width:100%;
+    }
+
+
+    .header-container {
+        display: flex;
+        background-color: #41525a;
+        height: 75px;
+        margin-bottom: 30px;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .logo {
+        width: 65px;
+        height: 55px;
+        margin: 0 5px;
+    }
+    .name {
+        color: #fef6a4;
+        margin: 0 5px;
+    }
+
+
+    .flexBox{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .refDiv{
+        background-color: #f8f9fb;
+        margin:  30px 0;
+
+    }
+    .ref{
+        font-size:1.2rem;
+    }
+    a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+    a:visited {
+        color: #b9b4b4;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #ff3939;
+    }
+    .car{
+        width: 200px;
+    }
+
+
+    #menu {
+        max-width: 100%;
+        margin:  20px 0;
+
+    }
+
+
+
+    .formDiv {
+        max-width: 100%;
+        background-color: #f8f9fb;
+        margin:  20px 0;
+
+    }
+    .form{
+        padding: 2px;
+    }
+
+
+    .table {
+        border-collapse: collapse;
+        max-width: 100%;
+        margin: 15px 0;
+        order:2;
+    }
+
+    .footer {
+        background-color: #41525a;
+        height: 75px;
+        max-width: 100%;
+    }
+    .bottom {
+        float: right;
+        color: #fef6a4;
+        padding-right: 15px;
+    }
+}
+
+
+
+@media (min-width: 701px) {
+    .body {
+        margin: 0;
+        font-family: Tahoma, serif, sans-serif;
+    }
+
+
+    .topFlexBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-container {
+        display: flex;
+        background-color: #41525a;
+        height: 150px;
+        width: 100%;
+        margin-bottom: 30px;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .flexBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .refDiv {
+        width: 70vh;
+        background-color: #f8f9fb;
+        margin: 50px 0 20px 0;
+    }
+
+    .car{
+        width: 400px;
+    }
+    .ref {
+        font-size: medium;
+    }
+
+    a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: #b9b4b4;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #ff3939;
+    }
+
+    .container-fluid{
+        display: flex;
+        background-color: #41525a;
+        height: 149px;
+        box-shadow: 2px 4px 20px #201c1c;
+        margin-bottom: 30px;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .logo {
+        width: 130px;
+        height: 110px;
+        margin:0 10px;
+    }
+
+    .name {
+        color: #fef6a4;
+        font-size: 70px;
+        margin:0 10px;
+    }
+
+    .table {
+        border-collapse: collapse;
+        width: 70vh;
+        margin: 20px 0;
+    }
+
+    #menu{
+        margin: 50px 0;
+        width: 70vh;
+    }
+
+
+    .formDiv {
+        width: 70vh;
+        background-color: #f8f9fb;
+        margin: 20px 0;
+    }
+    .form{
+        padding: 10px;
+    }
+
+
+    .footer {
+        background-color: #41525a;
+        height: 95px;
+        width: 100%;
+    }
+
+    .bottom {
+        float: right;
+        color: #fef6a4;
+        font-size: 15px;
+        font-weight: bold;
+        padding-right: 15px;
+    }
+}
